@@ -1,0 +1,993 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1633269442372,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "3d488663-5055-4f41-b27f-85aea61b0333",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1633358212641,
+      "lastUpdateUserId": "287ed085-c6ca-4255-b69c-956f1665ed51",
+      "locked": false,
+      "name": "Custom Dashboards/vSphere Inventory",
+      "namePath": "Custom Dashboards",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "287ed085-c6ca-4255-b69c-956f1665ed51",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-1",
+                        "isStringMetric": false,
+                        "label": "vCenters",
+                        "link": "",
+                        "metricKey": "summary|total_number_vcenters",
+                        "metricName": "Summary|Total Number of vCenter Server(s)",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-2",
+                        "isStringMetric": false,
+                        "label": "Datacenters",
+                        "link": "",
+                        "metricKey": "summary|total_number_datacenters",
+                        "metricName": "Summary|Total Number of Datacenters",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-3",
+                        "isStringMetric": false,
+                        "label": "Clusters",
+                        "link": "",
+                        "metricKey": "summary|total_number_clusters",
+                        "metricName": "Summary|Total Number of Clusters",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-4",
+                        "isStringMetric": false,
+                        "label": "ESXi Hosts",
+                        "link": "",
+                        "metricKey": "summary|total_number_hosts",
+                        "metricName": "Summary|Total Number of Hosts",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-3",
+                        "isStringMetric": false,
+                        "label": "Running ESXi Hosts",
+                        "link": "",
+                        "metricKey": "summary|number_running_hosts",
+                        "metricName": "Summary|Number of Running Hosts",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-5",
+                        "isStringMetric": false,
+                        "label": "VMs",
+                        "link": "",
+                        "metricKey": "summary|total_number_vms",
+                        "metricName": "Summary|Total Number of VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-2",
+                        "isStringMetric": false,
+                        "label": "Running VMs",
+                        "link": "",
+                        "metricKey": "summary|number_running_vms",
+                        "metricName": "Summary|Number of Running VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-4",
+                        "isStringMetric": false,
+                        "label": "Powered Off VMs",
+                        "link": "",
+                        "metricKey": "summary|number_poweredOff_vms",
+                        "metricName": "Summary|Number of Powered Off VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-5",
+                        "isStringMetric": false,
+                        "label": "DRS Unhappy VMs",
+                        "link": "",
+                        "metricKey": "summary|drs_unhappy_vms",
+                        "metricName": "Summary|DRS Unhappy VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-6",
+                        "isStringMetric": false,
+                        "label": "DRS Happy VMs",
+                        "link": "",
+                        "metricKey": "summary|drs_happy_vms",
+                        "metricName": "Summary|DRS Happy VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel21923-1",
+                        "isStringMetric": false,
+                        "label": "VM Templates",
+                        "link": "",
+                        "metricKey": "summary|number_vm_templates",
+                        "metricName": "Summary|Number of VM Templates",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel18395-6",
+                        "isStringMetric": false,
+                        "label": "Datastores",
+                        "link": "",
+                        "metricKey": "summary|total_number_datastores",
+                        "metricName": "Summary|Total Number of Datastores",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": false},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "vSphere Object Inventory",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "98491a1e-c549-48b4-aff4-acbf73d2ac91",
+            "title": "vSphere Object Inventory",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-44",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "ESXi Host Hardware",
+               "traversalSpecId": null,
+               "viewDefinitionId": "7306a325-8ab6-465c-9122-3f68684c068a"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 7,
+               "y": 5
+            },
+            "height": 267,
+            "id": "2e69c3d5-a19e-47c5-9521-1694f4f40baa",
+            "title": "ESXi Host Hardware",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "vCenter Version",
+                     "metricKey": "summary|version",
+                     "metricName": "Summary|Version",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Datacenters",
+                     "metricKey": "summary|total_number_datacenters",
+                     "metricName": "Summary|Total Number of Datacenters",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Clusters",
+                     "metricKey": "summary|total_number_clusters",
+                     "metricName": "Summary|Total Number of Clusters",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "ESXi Hosts",
+                     "metricKey": "summary|total_number_hosts",
+                     "metricName": "Summary|Total Number of Hosts",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Running ESXi Hosts",
+                     "metricKey": "summary|number_running_hosts",
+                     "metricName": "Summary|Number of Running Hosts",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "VMs",
+                     "metricKey": "summary|total_number_vms",
+                     "metricName": "Summary|Total Number of VMs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Running VMs",
+                     "metricKey": "summary|number_running_vms",
+                     "metricName": "Summary|Number of Running VMs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Datastores",
+                     "metricKey": "summary|total_number_datastores",
+                     "metricName": "Summary|Total Number of Datastores",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "vCenters"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 16
+            },
+            "height": 210,
+            "id": "aaa969b1-9f70-4ab8-b733-923ed55be466",
+            "states": [{
+               "key": "permResGrid_widget_3d488663-5055-4f41-b27f-85aea61b0333_aaa969b1-9f70-4ab8-b733-923ed55be466",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "vCenters",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-45",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "ESXi Host BIOS Versions",
+               "traversalSpecId": null,
+               "viewDefinitionId": "c94b11bf-18c5-41c4-80fe-26ae5882dd45"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 5
+            },
+            "height": 267,
+            "id": "52727309-9395-4843-9f17-7cb692c54c52",
+            "title": "ESXi Host BIOS Versions",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-43",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "ESXi Host Versions",
+               "traversalSpecId": null,
+               "viewDefinitionId": "f1aeaa58-ce9a-4456-878e-1d9582a66711"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 4,
+               "y": 5
+            },
+            "height": 267,
+            "id": "7e065ca0-746b-4a82-83ca-b0412da5732c",
+            "title": "ESXi Host Versions",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["labels"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-41",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VM VMware Tools Versions",
+               "traversalSpecId": null,
+               "viewDefinitionId": "3aedc9d0-a813-459f-a720-23f94e9a5eb8"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 10
+            },
+            "height": 324,
+            "id": "f5842a12-c377-448c-8617-fb47d6382c3e",
+            "title": "VM VMware Tools Versions",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-22",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VM Guest OS Names",
+               "traversalSpecId": null,
+               "viewDefinitionId": "19729c38-20e3-4fea-bb9f-0576126c25ec"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 10
+            },
+            "height": 324,
+            "id": "c6ffcb54-c4fd-4c1c-989b-9b094e9617d5",
+            "title": "VM Guest OS Names",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": ["labels"],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-53",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VM Hardware Versions",
+               "traversalSpecId": null,
+               "viewDefinitionId": "aa7e1da1-1693-4083-84ba-bbfcfd45931b"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 10
+            },
+            "height": 324,
+            "id": "1a40fb62-7512-4e82-b244-267122fc93de",
+            "title": "VM Hardware Versions",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-25",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "ESXi Hosts",
+               "traversalSpecId": null,
+               "viewDefinitionId": "694338c5-2d7a-416b-9364-78c6bc1de827"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 20
+            },
+            "height": 324,
+            "id": "735ea731-bd1c-477d-a882-5c30fd2540a3",
+            "title": "ESXi Hosts",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels",
+                  "title"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-26",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VMs",
+               "traversalSpecId": null,
+               "viewDefinitionId": "7f7ee96e-35ed-42b1-b7f0-4ac7ac9986e3"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 26
+            },
+            "height": 324,
+            "id": "09ce7b37-be32-4965-8da9-fb2733a3963a",
+            "title": "VMs",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-28",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Datacenters",
+               "traversalSpecId": null,
+               "viewDefinitionId": "f321f548-3cdf-464d-8e3e-a65f3ae65899"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 16
+            },
+            "height": 210,
+            "id": "b55329ca-0522-40ab-9408-96476b3154e9",
+            "title": "Datacenters",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels",
+                  "title"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-29",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Clusters",
+               "traversalSpecId": null,
+               "viewDefinitionId": "d3487e74-223e-402c-9e90-6b6d5987a541"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 20
+            },
+            "height": 324,
+            "id": "bb84484b-ba76-47d0-9b8e-9cea00200df8",
+            "title": "Clusters",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels",
+                  "title"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-30",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Datastores",
+               "traversalSpecId": null,
+               "viewDefinitionId": "867d0405-3f05-49ee-9466-ede29a147aff"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 26
+            },
+            "height": 324,
+            "id": "f24602eb-5610-42cd-94a0-2a9e063422a9",
+            "title": "Datastores",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-42",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Cluster DRS Automation Levels",
+               "traversalSpecId": null,
+               "viewDefinitionId": "94b25c6a-bc08-4b7f-83e5-d55d4b6d89e1"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 5
+            },
+            "height": 267,
+            "id": "420c5409-4996-463b-aa88-7419e204ef7a",
+            "title": "Cluster DRS Automation Levels",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-55",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Datastore Types",
+               "traversalSpecId": null,
+               "viewDefinitionId": "2486078e-790e-485b-8ab5-70c1da351a0d"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 10
+            },
+            "height": 324,
+            "id": "13991d03-91cb-45a6-8462-402bba904b16",
+            "title": "Datastore Types",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel141508-3",
+                        "isStringMetric": false,
+                        "label": "Total CPU",
+                        "link": "",
+                        "metricKey": "cpu|capacity_provisioned",
+                        "metricName": "CPU|Total Capacity",
+                        "metricUnitId": "ghz",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "GHz",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel141508-1",
+                        "isStringMetric": false,
+                        "label": "Total Memory",
+                        "link": "",
+                        "metricKey": "mem|host_provisioned",
+                        "metricName": "Memory|Total Capacity",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "TB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel141508-2",
+                        "isStringMetric": false,
+                        "label": "Total Disk",
+                        "link": "",
+                        "metricKey": "diskspace|total_capacity",
+                        "metricName": "Disk Space|Total Capacity",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "TB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel143093-1",
+                        "isStringMetric": false,
+                        "label": "Critical Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_critical",
+                        "metricName": "vRealize Operations Generated|Alert Count Critical",
+                        "metricUnitId": null,
+                        "orangeBound": -1,
+                        "redBound": 0,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": -2
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel143093-2",
+                        "isStringMetric": false,
+                        "label": "Immediate Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_immediate",
+                        "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                        "metricUnitId": null,
+                        "orangeBound": 0,
+                        "redBound": 99999,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": -1
+                     },
+                     {
+                        "colorMethod": 0,
+                        "handleOldColoring": false,
+                        "id": "extModel143093-3",
+                        "isStringMetric": false,
+                        "label": "Warning Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_warning",
+                        "metricName": "vRealize Operations Generated|Alert Count Warning",
+                        "metricUnitId": null,
+                        "orangeBound": 9999,
+                        "redBound": 99999,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": "",
+                        "yellowBound": 0
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 210,
+            "id": "9818ead0-f95d-47c2-88cc-73adc47b4739",
+            "title": "Scoreboard",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "vSphere World",
+         "resourceKindKey": "vSphere World"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "VMwareAdapter Instance"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "vSphere World"
+         }
+      ]
+   },
+   "uuid": "41b95cff-b8bf-42da-833f-f2e30473fa4b"
+}
